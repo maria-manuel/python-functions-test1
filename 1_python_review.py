@@ -26,7 +26,7 @@ print('Challenge 2 -------------')
 # Create a list of your favorite book authors.
 # Put it into a variable called "authors_list".
 
-authors = [
+authors_list = [
     'ferlinghetti', 
     'whitman', 
     'frank',
@@ -40,7 +40,7 @@ print('Challenge 3 -------------')
 
 # Hint: The very first author is accessible with authors_list[0]
 
-if authors[0] == 'ferlinghetti':
+if authors_list[0] == 'ferlinghetti':
     print("Don't panic")
 else:
     print("Panic")
@@ -53,10 +53,32 @@ print('Challenge 4 -------------')
 # your favorite authors list, printing each one on a separate line, along with
 # its index.
 
-#i = 0
-#print(authors_list[i])
-#length = len(authors_list)
-#print('There are', length,  'favorite authors')
+# i = 0
+# print(authors_list[i])
+# length = len(authors_list)
+# print('There are', length,  'favorite authors')
+
+# i = 0
+# print(authors_list[i])
+# length = len(authors_list)
+# print('There are', length,  'favorite authors')
+# print(authors_list)
+
+# MM Answer
+
+i = 0
+while i < len(authors_list):
+    print(authors_list[i])
+    i = i + 1
+
+# MB Answer
+length = len(authors_list)
+
+i = 0
+while i < length:
+    print(authors_list[i])
+    i = i + 1
+
 
 
 # Challenge 4 hint: The following lines of code might be helpful, although not
