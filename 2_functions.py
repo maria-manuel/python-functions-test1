@@ -38,11 +38,6 @@ func_2()
 func_3()
 func_4()
 
-
-
-
-
-
 print('Challenge 3 -------------')
 # Challenge 3:
 # 1. Uncomment the following code. What does it do?
@@ -60,6 +55,15 @@ print('Challenge 3 -------------')
 # name = input('What is your name? ')
 # print("Hi", name)
 
+def ask():
+    name = input('What is your name? ')
+    print("Hi", name)
+
+print("We need to ask your name 3 times.")
+ask()
+ask()
+print("And one more time....")
+ask()
 
 print('Challenge 4 -------------')
 # Challenge 4:
