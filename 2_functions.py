@@ -20,23 +20,23 @@ print('Challenge 2 -------------')
 # the mistakes and typos to get the code running.
 # 3. When running correctly, it should print a, b, c, and d on separate lines.
 
-# def func_1():
-#     print("a")
+def func_1():
+    print("a")
 
-# def func_2()
-#     print("b")
+def func_2():
+    print("b")
 
-# def func_3():
-# print("c")
+def func_3():
+    print("c")
 
-# def func 4():
-#     print("d")
+def func_4():
+    print("d")
 
 
-# func_1()
-# func_2
-# Func_3()
-# func_4 = ()
+func_1()
+func_2()
+func_3()
+func_4()
 
 
 
