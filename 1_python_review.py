@@ -72,13 +72,13 @@ while i < len(authors_list):
     i = i + 1
 
 # MB Answer
+
 length = len(authors_list)
 
 i = 0
 while i < length:
     print(authors_list[i])
     i = i + 1
-
 
 
 # Challenge 4 hint: The following lines of code might be helpful, although not
@@ -94,7 +94,10 @@ print('Challenge 5 -------------')
 # 2. Using this a start, create a while loop that keeps on looping until the
 # user says "Stop". Have it print back whatever they say each time it loops.
 
-#user_input = input('Stop? ')
+user_input = None
+while user_input != 'Stop':
+    user_input = input('Stop? ')
+    print(user_input)
 
 
 
