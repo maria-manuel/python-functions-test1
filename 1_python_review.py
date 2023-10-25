@@ -100,11 +100,6 @@ while user_input != 'Stop':
     print(user_input)
 
 
-
-
-
-
-
 print('-------------')
 # Bonus Challenge:
 # Create a chat bot!
